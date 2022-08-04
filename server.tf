@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "saswata-public"
 
   tags = {
-    Name = "Saswata-DevOps-server"
+    Name = "Saswata-DevOps-server-Updated"
     env = "Prod"
     owner = "Saswata Chakraborty"
   }
